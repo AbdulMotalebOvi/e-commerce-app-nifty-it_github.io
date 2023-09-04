@@ -1,0 +1,100 @@
+.bg_1 {
+    background-image: url('../../../assests/images/slider-1.jpg');
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg_2 {
+    background-image: url('../../../assests/images/slider-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg_3 {
+    background-image: url('../../../assests/images/slider-3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: #bc8246;
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+
+/* discover */
+.bg_disc_1 {
+    background-image: url('../../../assests/images/banner-sm-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg_disc_2 {
+    background-image: url('../../../assests/images/banner-sm-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg_disc_3 {
+    background-image: url('../../../assests/images/banner-sm-3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+container {
+    transition: transform 0.3s ease;
+}
+
+container.bg_disc_1:hover,
+container.bg_disc_2:hover,
+container.bg_disc_3:hover {
+    transform: scale(1.1);
+}
