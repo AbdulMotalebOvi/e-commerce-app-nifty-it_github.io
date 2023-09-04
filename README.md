@@ -33,4 +33,4 @@ The project also utilizes the following libraries and tools:
    ```bash
    git clone https://github.com/AbdulMotalebOvi/e-commerce-app-nifty-it_github.io
 # Live link:
- https://64a9c2d57ed34f372d2eae8e--flourishing-peony-75cd5d.netlify.app/
+ https://64f5ff5070c7560da34018a5--flourishing-peony-75cd5d.netlify.app/
