@@ -10,6 +10,7 @@ This is an eCommerce website where users can buy products by logging in or regis
 ## Technologies Used
 
 - Frontend: [React](https://reactjs.org/),
+-Css : [Tailwindcss](https://tailwindcss.com/)
 
 
 ## Libraries and Tools Used
@@ -30,7 +31,6 @@ The project also utilizes the following libraries and tools:
  Clone the repository:
 
    ```bash
-   git clone https://github.com/AbdulMotalebOvi/e-commerce-admin.github.io
-
+   git clone https://github.com/AbdulMotalebOvi/e-commerce-app-nifty-it_github.io
 # Live link:
  https://64a9c2d57ed34f372d2eae8e--flourishing-peony-75cd5d.netlify.app/
